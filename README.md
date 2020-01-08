@@ -46,7 +46,7 @@ Parameter | Description
 
 ### `onesky_download`
 
-Uploads a new translation file to the onesky service.
+Downloads a translation file from the onesky service.
 
 ````ruby
 onesky_download(
@@ -64,7 +64,7 @@ Parameter | Description
 `public_key` | Your OneSky account public key. You retrive it by logging into your OneSky account, go to *Settings* and then *API Keys & Usages*.
 `private_key` | Your OneSky account private key. You retrive it by logging into your OneSky account, go to *Settings* and then *API Keys & Usages*.
 `project_id` | The ID of the project you want the tranlstions downloaded for. You retrive it, by logging into your OneSky account, navigate to your projects overview and copy the number behind the # in the brackets. (i.e. (#1234) -> `"1234"`)
-`locale` | The locale your wnat to download the translation for.
+`locale` | The locale you want to download the translation for.
 `filename` | The filename fo the file you want the translation for. It is the name of your original uploaded file.
 `destination` | Filepath of the file to write the translations to.
 
